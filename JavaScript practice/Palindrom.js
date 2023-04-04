@@ -1,4 +1,4 @@
-
+// Check if the given string is Palindrome or not.
 let str = 'maddam'
 
 function revString(str) {
