@@ -1,12 +1,12 @@
 // Check if the given string is Palindrome or not.
-let str = 'maddam'
+let str = '121'
 
 function revString(str) {
    let bag = ''
    for(let i=str.length-1; i>=0; i--){
     bag += str[i]
    }
-   return bag
+   return bag;
 }
 
 let output = revString(str)
