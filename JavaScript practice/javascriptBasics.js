@@ -7,9 +7,7 @@ function filterExample(){
     let arrfiltered = arr4.filter(greaterThan200)
     console.log(arrfiltered)
 }
-
 // Maping in Javascript.
- 
 function mapExample(){
   let arrReturn = arr4.map((item)=>{
         return item -10;

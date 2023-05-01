@@ -31,5 +31,4 @@ var capitalizeTitle = function(s) {
     }
     return ans
 };
-
 console.log(capitalizeTitle('capiTalIze tHe title')) 
