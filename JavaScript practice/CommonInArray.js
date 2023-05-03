@@ -9,5 +9,5 @@ for(let i=0; i<arr1.length; i++){
     }
   }
 }
-console.log(count)
+console.log('Total count of common number :',count)
 
