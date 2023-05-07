@@ -10,7 +10,7 @@ console.log(x,y)
 
 // Passed by reference.
 
-var obj1 = {name : 'Akash' , surname : 'Roi'}
+var obj1 = {name : 'Akash' , surname : 'Rio'}
 var obj2 = obj1
 
 obj1.name= 'Rohan'
