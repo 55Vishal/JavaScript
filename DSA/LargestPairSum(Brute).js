@@ -7,3 +7,11 @@ arr.sort(function(a,b){return a-b})
 sum=arr[arr.length-1]+arr[arr.length-2]
 
 console.log(sum)
+
+let sums = 0;
+arr.sort(function(a,b){
+    return a-b;
+})
+
+sums = arr[arr.length-1] + arr[arr.length-2]
+console.log(sums)

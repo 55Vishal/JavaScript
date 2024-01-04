@@ -6,7 +6,7 @@ let newArr = []
 for (let i = arr.length - 1; i >= 0; i--) {
     newArr.push(arr[i])
 }
-// console.log(newArr)
+console.log('1st Method :',newArr)
 
 // 2nd Method.
 arr = [1, 2, 3, 4, 5]
@@ -19,4 +19,4 @@ while (i < j) {
     i++;
     j--
 }
-console.log(arr)
+console.log('2st Method :',arr)
