@@ -1,12 +1,31 @@
-// . Write a function to check if a given string is a valid palindrome with alphanumeric
+// [*] Write a function to check if a given string is a valid palindrome with alphanumeric
 // characters only
 
-const a= 'MadaM';  
+//1 st method
 
-function checkPallindrom(a){
-    let str = a.replace(/[^a-zA-Z0-9]/g,'').toLowerCase()
-    let checkStr = str.split('').reverse().join('')
-    return str === checkStr
+// const a= 'madam';  
+// let newArray = [];
+// for (let i=a.length-1; i>=0; i--){
+//    newArray.push(a[i]);
+// }
+// // console.log(newArray);
+// if(a == newArray.join('')){
+//     console.log('true') 
+// }else{
+//     console.log('false')
+// }
+
+// 2nd method
+
+
+const a= 'MaDaM';  
+
+function pallindrome(a){
+  
+  const clnstr= a.replace(/[^a-zA-Z0-9]/g, '').toLowerCase() 
+  const checkstr= clnstr.split('').reverse().join('')
+  
+  return  clnstr === checkstr
 }
 
-console.log(checkPallindrom(a));
+console.log(pallindrome(a))
