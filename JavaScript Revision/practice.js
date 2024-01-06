@@ -1,9 +1,16 @@
-//Table of three
-
-function table(num){
-    for(let i=1; i<=10; i++){
-        console.log(num*i);
+function checkPrime(num){
+    for (let i=0; i<=num; i++){
+        let count=0;
+        for(let j=0; j<=i; j++){
+            if(i%j == 0){
+                count++;
+            }
+        }
+        if(count == 2){
+            console.log(i,':Is prime')
+        }else{
+         console.log(i,':Not prime')
+        }
     }
 }
-
-table(10)
+console.log(checkPrime(15))
