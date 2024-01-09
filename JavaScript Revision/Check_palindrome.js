@@ -16,16 +16,21 @@
 // }
 
 // 2nd method
+//Check if a valid palindrome with alphanumeric
+const a= 'MaDaMe';  
 
+function checkPalindrome(a){
+  let str = a.replace(/[^a-zA-Z0-9]/g,'').toLowerCase();
+  let cheStr = str.split('').reverse().join('');
 
-const a= 'MaDaM';  
-
-function pallindrome(a){
-  
-  const clnstr= a.replace(/[^a-zA-Z0-9]/g, '').toLowerCase() 
-  const checkstr= clnstr.split('').reverse().join('')
-  
-  return  clnstr === checkstr
+  return str == cheStr
 }
+console.log(checkPalindrome(a))
 
-console.log(pallindrome(a))
+// function pallindrom(a){ 
+//   const clnstr= a.replace(/[^a-zA-Z0-9]/g, '').toLowerCase() 
+//   const checkstr= clnstr.split('').reverse().join('')
+  
+//   return  clnstr === checkstr
+// }
+// console.log(pallindrom(a))

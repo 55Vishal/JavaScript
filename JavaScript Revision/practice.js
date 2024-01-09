@@ -1,16 +1,15 @@
-function checkPrime(num){
-    for (let i=0; i<=num; i++){
-        let count=0;
-        for(let j=0; j<=i; j++){
-            if(i%j == 0){
-                count++;
-            }
-        }
-        if(count == 2){
-            console.log(i,':Is prime')
-        }else{
-         console.log(i,':Not prime')
-        }
+let k = 9;
+arr = [2,5,3,6,7,1]
+
+n = arr.length
+let count = 0;
+for(let i=0; i<n-1; i++){
+  for(let j=i+1; j<=n-1; j++){
+    if(arr[i]+arr[j]==k){
+      count++
+    console.log(arr[i],arr[j] ,'=',arr[i]+arr[j])
+
     }
+  }
 }
-console.log(checkPrime(15))
+  console.log(count)
