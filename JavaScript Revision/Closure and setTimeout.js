@@ -12,7 +12,7 @@ x();
 function i(){
     for(let i=1; i<=5; i++){
         setTimeout(function (){
-        console.log('Second function o/p : ',i)
+        console.log('Second function o/p :',i)
         },3000 * i);
     }
 }
