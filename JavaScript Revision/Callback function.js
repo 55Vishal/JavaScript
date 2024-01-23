@@ -1,4 +1,4 @@
-
+// When a function is passed into another function, this process is called as "Callback function"
 
 setTimeout( function(){
 console.log('Timer')
