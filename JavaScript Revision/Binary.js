@@ -16,5 +16,7 @@ console.log('output2',output2);
 
 // 3st method
 
-const output3 = arr.map((x) => x.toString(2))
+const output3 = arr.map((x) => {
+   return x.toString(2);
+})
 console.log('output3',output3);
