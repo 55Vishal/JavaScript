@@ -10,4 +10,3 @@ function counter(){
 var counter1 = counter();
 counter1();
 counter1();
-
