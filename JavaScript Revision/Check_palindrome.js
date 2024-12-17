@@ -26,11 +26,3 @@ function checkPalindrome(a){
   return str == cheStr
 }
 console.log(checkPalindrome(a))
-
-// function pallindrom(a){ 
-//   const clnstr= a.replace(/[^a-zA-Z0-9]/g, '').toLowerCase() 
-//   const checkstr= clnstr.split('').reverse().join('')
-  
-//   return  clnstr === checkstr
-// }
-// console.log(pallindrom(a))
